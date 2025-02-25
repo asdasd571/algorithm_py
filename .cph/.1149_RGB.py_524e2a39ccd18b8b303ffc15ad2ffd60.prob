@@ -1,0 +1,1 @@
+{"name":"Local: 1149_RGB","url":"/home/nak1/coding-test/1149_RGB.py","tests":[{"id":1740470899083,"input":"3\n26 40 83\n49 60 57\n13 89 99","output":"96"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/nak1/coding-test/1149_RGB.py","group":"local","local":true}
