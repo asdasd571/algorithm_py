@@ -1,0 +1,1 @@
+{"name":"Local: 1764_ddeubojob","url":"/home/nak1/coding-test/1764_ddeubojob.py","tests":[{"id":1740384207649,"input":"3 4\nohhenrie\ncharlie\nbaesangwook\nobama\nbaesangwook\nohhenrie\nclinton","output":"2\nbaesangwook\nohhenrie"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/nak1/coding-test/1764_ddeubojob.py","group":"local","local":true}

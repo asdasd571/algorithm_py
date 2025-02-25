@@ -1,0 +1,1 @@
+{"name":"Local: 1463_make_one","url":"/home/nak1/coding-test/1463_make_one.py","tests":[{"id":1740385367164,"input":"2","output":"1"},{"id":1740385661708,"input":"10","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/nak1/coding-test/1463_make_one.py","group":"local","local":true}
