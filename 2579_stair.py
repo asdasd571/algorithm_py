@@ -2,19 +2,27 @@ import sys
 input = sys.stdin.readline
 
 N = int(input())
-stair = [int(input()) for i in range(N)]
-dp = [0]*N
+stair = [int(input()) for _ in range(N)]
 
-if len(stair) <= 2:
-    print(sum(stair))
+if N == 1:  # 계단이 하나일 경우
+    print(stair[0])
+    exit()
+elif N == 2:  # 계단이 두 개일 경우
+    print(stair[0] + stair[1])
+    exit()
 
-else:
-    dp[0] = stair[0]
-    dp[1] = stair[0] + stair[1]
-    for i in range(2,N):
-        dp[i] = max(dp[i-3]+stair[i-1]+stair[i],dp[i-2]+stair[i])
+dp = [0] * N
 
-print(dp[-1])
+# 초기 값 설정
+dp[0] = stair[0]
+dp[1] = stair[0] + stair[1]
+dp[2] = max(stair[0] + stair[2], stair[1] + stair[2])  # i=2일 때는 i-3이 없음
+
+for i in range(3, N):
+    dp[i] = max(dp[i-2] + stair[i], dp[i-3] + stair[i-1] + stair[i])
+
+print(dp[-1])  # 마지막 계단을 밟는 최댓값 출력
+
 
 
 '''
