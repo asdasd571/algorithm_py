@@ -14,7 +14,6 @@ for i in range(N):
             home.append((i,j))
         elif row[j] == 2:
             chick.append((i,j))
-print(home)
 visited = [0] * len(chick)
 
 def dfs(idx,cnt):
