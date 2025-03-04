@@ -8,7 +8,6 @@ def bfs(x,y):
     queue = deque([x])
     visited[x] = 1
     while queue:
-        
         x = queue.popleft()
         if x == y:
             return
