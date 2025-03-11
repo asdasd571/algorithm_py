@@ -1,0 +1,1 @@
+{"name":"Local: 1991_traversal","url":"c:\\Users\\kng06\\Desktop\\algorithm\\1991_traversal.py","tests":[{"id":1741572617615,"input":"7\nA B C\nB D .\nC E F\nE . .\nF . G\nD . .\nG . .","output":"ABDCEFG\nDBAECFG\nDBEGFCA"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\kng06\\Desktop\\algorithm\\1991_traversal.py","group":"local","local":true}

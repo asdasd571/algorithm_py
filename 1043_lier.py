@@ -8,10 +8,10 @@ parties = []
 for _ in range(M):
     parties.append(set(map(int,input().split()[1:])))
 
-for _ in range(M):
-    for party in parties:
-        if party & know_list:
-            know_list = know_list.union(party)
+# for _ in range(M):
+#     for party in parties:
+#         if party & know_list:
+#             know_list = know_list.union(party)
 cnt = 0
 for party in parties:
     if party & know_list:
